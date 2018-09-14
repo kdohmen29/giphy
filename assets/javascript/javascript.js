@@ -1,5 +1,5 @@
 
-var data = ["vikings", "rams", "patriots", "titans"]
+var data = ["Vikings", "Rams", "Patriots", "Titans"]
 addButtons();
 function addButtons() {
     $("#container").empty();
@@ -54,7 +54,7 @@ $("#add-button-form").on("submit", function(event){
     addButtons();
     $("#add-button-form")[0].reset();
     
-})
+});
 
 
 // my Giphy apikey

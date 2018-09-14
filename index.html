@@ -2,11 +2,8 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -20,36 +17,38 @@
 
 <body>
     <form id="add-button-form">
-        <input  id="add-button-text" type="text" required>
-        <button type="submit">submit</button>
+        <input id="add-button-text" type="text" required>
+        <button type="submit">Submit</button>
     </form>
     <div id="container"></div>
     <div id="giphys"></div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+    <script src="assets/javascript/javascript.js"></script>
 
 </body>
 
 </html>
 <style>
-#giphys {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    #giphys {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
 
-    grid-gap: 30px;
-    margin: 30px;
-}
-img {
-    width: 100%;
-}
-button {
-margin: 10px;
-}
-input {
-    margin: 10px;
-}
+        grid-gap: 30px;
+        margin: 30px;
+    }
 
+    img {
+        width: 100%;
+    }
 
+    button {
+        margin: 10px;
+        border-radius: 52px;
+        background-color: darkorange;
+        border: outset;
+    }
+
+    input {
+        margin: 10px;
+    }
 </style>
