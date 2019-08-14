@@ -1,0 +1,51 @@
+#body {
+    background-color: darkolivegreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.banner {
+    color: red;
+    background-color: black;
+    margin: auto;    
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 100px;
+
+
+
+}
+
+#giphys {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 70px;
+    margin: 100px;
+
+}
+
+
+img {
+    width: 100%;
+}
+
+.buttons {
+    background-color: darkorange;
+    border: outset;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 52px;
+}
+
+input {
+    width: 500px;
+    border-radius: 52px;
+    padding: 10px;
+    text-align: center;
+}

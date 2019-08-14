@@ -12,7 +12,7 @@ function addButtons() {
         newButton.on("click", function () {
             var APIkey = "ZzYm2cjgvAuNmcapXUca61bPU946Jt1W";
             console.log();
-            var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + eachItem + "&limit=10" + "&api_key=" + APIkey;
+            var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + eachItem + "&limit=9" + "&api_key=" + APIkey;
             $.get(queryURL, function (response) {
                 $("#giphys").empty()
                 response.data.forEach(function (eachGiphyUrl) {
@@ -21,6 +21,7 @@ function addButtons() {
                     var newImage = $("<img>");
                     newImage.attr("state", "still")
                     newImage.attr("src", stillUrl);
+                    newImage.addClass("border border-danger")
                     newImage.on("click", function () {
                         var state = $(this).attr("state");
                         if(state === "still"){
