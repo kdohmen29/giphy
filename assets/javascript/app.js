@@ -21,7 +21,7 @@ function addButtons() {
                     var newImage = $("<img>");
                     newImage.attr("state", "still")
                     newImage.attr("src", stillUrl);
-                    newImage.addClass("border border-danger")
+                    newImage.addClass("border shadow-lg rounded")
                     newImage.on("click", function () {
                         var state = $(this).attr("state");
                         if(state === "still"){

@@ -1,5 +1,4 @@
 #body {
-    background-color: darkolivegreen;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -9,8 +8,7 @@
 }
 
 .banner {
-    color: red;
-    background-color: black;
+    color: black;
     margin: auto;    
     width: 600px;
     padding: 10px;
@@ -36,7 +34,6 @@ img {
 }
 
 .buttons {
-    background-color: darkorange;
     border: outset;
     margin: 15px;
     padding: 10px;
